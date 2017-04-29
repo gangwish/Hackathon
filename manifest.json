@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Quizlet Extension",
+"description": "A Plugin that will create a quizlet page for unknown words",
+  "version": "1.0",
+  "icons": {
+    "128": "Q.png",
+    "48": "Q.png",
+    "16": "Q.png"
+  },
+  "browser_action": {
+    "default_popup": "popout.html",
+    "default_icon": "Q.png"
+},
+"background":{
+  "scripts": ["context.js"],
+  "persistent": false
+},
+"permissions": [
+  "contextMenus",
+  "storage",
+  "notifications",
+  "identity",
+  "<all_urls>",
+  "activeTab",
+  "contextMenus",
+  "https://sociallanguagelearning.herokuapp.com/*"
+],
+  "options_page": "options.html",
+  "key": "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDH73l6gnc8HNls5bBqbw/5IJavw7Z2jRwrtv9JO9PRgOJZ1v6eAtAkSNr8Das4EWUs4d4Sas7whFeZrpqO7jFUpR306BuVr+6/zpUucYEtP7PqI8+wRtQGXKVqb2efLYOiRbjSxpemONOy+ddXKdfaHRzOWl/zy8y7qXpxIE/JZ9ymNrt9ytKGNKzOQ3v9Ue9tRkKOmf9WZ+F8ygTJZEcrW+yvvLL13SdrJhiTzZx6cHkXQ3OEK/OSB+HP8NfCs5AxzX2D4MfnJxfITCuBhcqyoSK6/v7eJoXH7LgrcumsUxokx4nlgQbXKKMd/FnsnBX9U1gw95wV2vpKt0+MxAenAgMBAAECggEAPZKjj7YUMGAWGbJW9UBE5A1EOtcEH1hvv4q47f3NyuxtSQusGE93eGUzg4JWI4s/5GWe9X8NQgcPz1V1ZeU3LgE3y4+bxyqKVWmyib4M8Tl4F/h1Yq09aMQpcTDj8aKbsmLUe50LYPaJQ8orpj1Nq29hyq8Mc9FkuLqF6cbwq26UrUqRxEvwTpLwlNjFsT7F9WRhAIIk3Fq9CldVGsIqsGKSv+GHe5VuhXcTm9TBoGQuLbh5ediJ6duZyUHXJ5aCe45g+UNqNQicPMu7iJ/7Jek964lgxZ0r69aEm4L+PNTM30Ez8SF1+5EzsYtweYQX0wXBdODkyMAL+4QMVidMEQKBgQDiQNEZDvG6XnYJ9fA0vjpmCt486HxrqKC423wYZ4UUxcYmufw2GyvRGQaV8LJ66T73+hDZt8zTemGzQ/rrOSJITiIyv5futHkJ8CJBdWIZBwaqFIIPLXfaLkOqBRLPj++R/NqKxp98URxwT3+xkkqVnakoUvw91vUz2yiCy+LDrwKBgQDiONxOAqhhX4aIdxKykKgODmvy94TrwzGL7oG+ipi4Hdqh+EkAF/UOMEMWe3oKDJxPAEUd6QMBQ+9Y6bMgB1vA8ayHQtCMRuADP4aKeCl7FHtilUWrHvHMtIg1/WLOjgyTE32xRmlo+Wff65UMcT5lJwlMO6k7MRl9r6y8XPxhiQKBgQDPPOmKF1spBy79jq0X0opxP1Ey3wxgHFQjHr97Jw8J6OHIRSEUeizXWSHkI1WIKa9Iul/G3IkbyARHjGQAIxQYwKCodT/4IIyhorft11QkcoATN7etqUsXqLrHt9/0CPY6dS3EYYxh9XWkFd1zy/jPNFtmGST8i7GLbxmbPJ+X9wKBgQDQsnwrS7BjBGlsg80wBtvC+/MClu59Qfn3ifUP/3Scho4oVpGiEHf2uvdpSkhv9OpOx4T77vbit/WbJR4nMiKngU0VC8KxZsFKvdQ08l3yOhcJ/4PiNg4EN5hhln0M6WcYWCbg4IBmY5A8t20tqVtSngyp03BwNv+5P9QvgekjYQKBgQDCi15n75/cp5FFmZmXwZBkM7UWQoOw9bXefKml1hsZmLIDYr6POnsJrTB+YTVmqCUJkmaEb8XpANVzYFOxQPUfjEclmrdMiz8ejwTb/qIs2A5L44/sedNN1OJIEZVo8Ntb1hs2awkn5wJTitOZp8M8wlbLjgDeh78a9Qz7rZqoPQ=="
+}

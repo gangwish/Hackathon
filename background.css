@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+  color: darkblue;
+  text-shadow: 0px 1px black;
+}
+
+.wrapper {
+    background-color: darkblue;
+    padding: 12px;
+    width: 87%;
+    margin: center;
+    color: white;
+}
+.form-sub {
+    padding-top: 12px;
+
+}
+.button1 {
+  color: darkblue;
+  background-color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+  color: white;
+  background-color: darkblue;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
